@@ -1,0 +1,31 @@
+MPASM  5.31                      UNTITLED.ASM   11-4-2020  15:29:03         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Warning[205]: Found directive in column 1. (LIST)
+                      00001 LIST            P=16F84
+  00000000            00002 RESULTADO       EQU 0X00
+                      00003 
+                      00004                         ORG 0
+0000   3007           00005 INICIO          MOVLW 0X07
+0001   3E08           00006                         ADDLW 0X08
+0002   3E00           00007                         ADDLW RESULTADO
+                      00008                         END
+MPASM  5.31                      UNTITLED.ASM   11-4-2020  15:29:03         PAGE  2
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+INICIO                            00000000
+RESULTADO                         00000000
+__16F84A                          00000001
+__DEBUG                           1
+
+Errors   :     0
+Warnings :     1 reported,     0 suppressed
+Messages :     0 reported,     0 suppressed
+
+

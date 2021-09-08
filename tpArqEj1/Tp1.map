@@ -1,0 +1,46 @@
+MPLINK 4.31, Linker
+Linker Map File - Created Tue Feb 23 01:03:57 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x000046
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000026      
+            38 out of 2183 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                DELAY_1ms   0x00001d    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+              DELAY_250ms   0x000022    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+                ENCENDIDO   0x000001    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+                   INICIO   0x00000f    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+                     LOOP   0x00001e    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+                    LOOP2   0x000023    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+             _.org_1_001C   0x00001c    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                ENCENDIDO   0x000001    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+                   INICIO   0x00000f    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+             _.org_1_001C   0x00001c    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+                DELAY_1ms   0x00001d    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+                     LOOP   0x00001e    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+              DELAY_250ms   0x000022    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+                    LOOP2   0x000023    program     static C:\Users\Usuario\Desktop\UNLa\Arquitectura computadoras\tpArqEj1\Untitled.asm
+
+
